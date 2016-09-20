@@ -57,7 +57,7 @@
 
     var localData = [{
       name: 'The Fountainhead',
-      isbn: '0452286379',
+      isbn: '0452273331',
       price: 6.48,
        reviews: [{
             stars: 5,
@@ -89,6 +89,22 @@
         }],
         myTake: "Definitely not required reading for most people. This book got me really excited about fish keeping, which I know is a bit odd. I was in middle school and the thing I liked most about the hobby is the absolute God-like control you have over this environment. I don’t consider myself a very controlling person, but being able to see and influence all the minutiae of nitrates, water hardness, and pH was really fun for me. Not to mention the aesthetic of having a glowing, bubbling tank, full of hovering animals in your living room is just pleasant. This book helped me raise several tanks at a young age and even become a fish father to many platies."
     },{
+      name: 'The Zero Marginal Cost Society',
+      isbn: '1137280115',
+      price: 17.99,
+       reviews: [{
+            stars: 3,
+            body: "This is preposterous.",
+            author: "Scott@butter.com",
+            createdOn: 1397490980837
+        }, {
+            stars: 4,
+            body: "I really enjoyed this book!",
+            author: "crumbs@mumble.com",
+            createdOn: 1397490980837
+        }],
+        myTake: "I like to stay up to date on economic theory and as a big fan of Freakonomics and other ‘pop-econ’, I knew I just had to get this book. I was not disappointed. Jeremy Rifkin pulls in many facets of near-future life to create a highly probable prediction for the demise of capitalism, due to capitalism."
+    },{
       name: 'The Sims',
       isbn: '0761523391',
       price: 1,
@@ -105,5 +121,5 @@
         }],
         myTake:"This one is a joke. I think it’s pretty funny if someone asks me what my favorite book is and I say “The Sims Strategy Guide”."
     }];
-//var isbns = ["0452286379", "0793821010", "0761523391"];
+//var isbns = ["0452286379", "0793821010", "0761523391, 1137280115"];
 })();
